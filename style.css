@@ -12,7 +12,7 @@ h1,
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #585f7d;
+  color: #79a3b1;
   font-weight: 600;
   margin-bottom: 40px;
 }
@@ -65,23 +65,23 @@ a {
 
 .btn:hover {
   color: white;
-  background-color: #585f7d;
+  background-color: #79a3b1;
 }
 
 .btn {
   background-color: white;
-  color: #585f7d;
+  color: #79a3b1;
   padding: 15px;
   border-radius: 4px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  border: 1.5px solid #585f7d;
+  border: 1.5px solid #79a3b1;
   margin: 1em;
 }
 
 i {
   font-size: 2.2em;
-  color: #585f7d;
+  color: #79a3b1;
 }
 
 i:hover {
@@ -134,7 +134,7 @@ li {
 }
 
 .resume h2 {
-  background-color: #585f7d;
+  background-color: #79a3b1;
   color: white;
   border-radius: 2px;
   font-weight: lighter;
@@ -145,7 +145,7 @@ li {
 }
 
 .resume-header {
-  background-color: #585f7d;
+  background-color: #79a3b1;
   padding: 2em;
   border-radius: 2px;
   width: 935px;
@@ -241,7 +241,7 @@ span.grey {
 .skills p,
 .resume-body p {
   background-color: inherit;
-  color: #585f7d;
+  color: #79a3b1;
   font-family: "Montserrat", sans-serif;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -264,7 +264,7 @@ span.grey {
 .hr {
   width: 17vw;
   margin-left: 0.9em;
-  background-color: #585f7d;
+  background-color: #79a3b1;
   margin-bottom: 1.5em;
   height: 0.13em;
 }
@@ -274,7 +274,7 @@ span.grey {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #585f7d;
+  background-color: #79a3b1;
   color: white;
   padding: 0.5em;
   margin-left: 0.7em;
@@ -304,7 +304,7 @@ span.grey {
 }
 
 .score {
-  background-color: #585f7d;
+  background-color: #79a3b1;
   height: 1em;
 }
 
@@ -325,7 +325,7 @@ span.grey {
 
 h1.apps-header {
   margin-bottom: 2em;
-  background-color: #585f7d;
+  background-color: #79a3b1;
   color: #e1dad1;
   height: 15vh;
   margin-top: 0;
@@ -341,7 +341,7 @@ h1.apps-header {
 }
 
 .app-links h4 {
-  border: 1.8px solid #585f7d;
+  border: 1.8px solid #79a3b1;
   padding: 0.5em;
   border-radius: 4px;
   width: 15vw;
@@ -352,7 +352,7 @@ h1.apps-header {
 }
 
 .app-links span {
-  color: #585f7d;
+  color: #79a3b1;
   font-weight: 600;
   margin-right: 0.2em;
 }
@@ -363,7 +363,7 @@ h1.apps-header {
 }
 
 .app-links a:hover {
-  background-color: #585f7d;
+  background-color: #79a3b1;
   opacity: 0.95;
 }
 
@@ -371,7 +371,7 @@ h1.apps-header {
 .app-links a:hover i,
 .app-links a:hover h4 {
   color: white;
-  background-color: #585f7d;
+  background-color: #79a3b1;
 }
 
 .app-links {
@@ -383,7 +383,7 @@ h1.apps-header {
 
 hr {
   width: 50vw;
-  color: #585f7d;
+  color: #79a3b1;
   font-weight: border;
 }
 
