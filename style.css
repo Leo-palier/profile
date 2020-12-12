@@ -321,6 +321,76 @@ span.grey {
   font-size: 1.3vw;
 }
 
+/* ///////////////////APPLICATIONS/////////////////////// */
+
+h1.apps-header {
+  margin-bottom: 2em;
+  background-color: #585f7d;
+  color: #e1dad1;
+  height: 15vh;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.application p {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.app-links h4 {
+  border: 1.8px solid #585f7d;
+  padding: 0.5em;
+  border-radius: 4px;
+  width: 15vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.app-links span {
+  color: #585f7d;
+  font-weight: 600;
+  margin-right: 0.2em;
+}
+
+.app-links a {
+  border-radius: 4px;
+  margin-right: 2em;
+}
+
+.app-links a:hover {
+  background-color: #585f7d;
+  opacity: 0.95;
+}
+
+.app-links a:hover span,
+.app-links a:hover i,
+.app-links a:hover h4 {
+  color: white;
+  background-color: #585f7d;
+}
+
+.app-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+hr {
+  width: 50vw;
+  color: #585f7d;
+  font-weight: border;
+}
+
+.one-project {
+  margin-top: 4em;
+}
+
 /*-------------------- Media querries -------------------*/
 
 @media (max-width: 1074px) {
