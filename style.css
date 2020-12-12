@@ -321,68 +321,450 @@ span.grey {
   font-size: 1.3vw;
 }
 
-#button {
-  color: #48c9b0;
-  text-decoration: none;
-  font-size: 1.2em;
-  background-color: royalblue;
-  padding: 15px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top: 50px;
-}
+/*-------------------- Media querries -------------------*/
 
-#button:hover {
-  color: white;
-  background-color: black;
-}
-
-#profile-image {
-  width: 100px;
-  border-radius: 50%;
-}
-
-a:hover .fab {
-  color: #5c7e8f;
-}
-
-.fa-linkedin {
-  color: #0e76a8;
-  margin: 1%;
-}
-
-.fa-facebook-square {
-  color: #0000ff;
-  margin: 1%;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.list-inline > li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+@media (max-width: 1074px) {
+  /* For a screen < 974px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 800px;
+  }
+
+  .resume-header {
+    width: 735px;
+  }
+
+  .margin-right {
+    margin-right: 4em;
+  }
+
+  .resume-body {
+    margin-left: 19em;
+    width: 470px;
+    margin-top: 4em;
+  }
+
+  .resume-body h2 {
+    font-size: 1.2em;
+  }
+
+  .d-flex {
+    display: inherit;
+  }
+  .resume-body p {
+    font-size: 1.1em;
+  }
+
+  .myskills {
+    display: flex;
+  }
+
+  .skills {
+    width: 250px;
+    margin-top: 3em;
+  }
+
+  .skills img {
+    margin-top: 3em;
+    width: 180px;
+    height: 180px;
+  }
+
+  .mobile a {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile p {
+    text-align: center;
+    font-size: 1.5;
+  }
+
+  .mobile i {
+    margin: auto;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .mobile > i:first-child {
+    margin-top: 1.5em;
+  }
+
+  .langage p {
+    font-size: 1em;
+  }
+
+  .interets i {
+    font-size: 1.5em;
+    padding: 0.7em;
+    margin: 0.3em;
+    width: 1em;
+    height: 1em;
+  }
+}
+/* ---------- For a screen < 720px, this CSS will be read ---------- */
+@media (max-width: 850px) {
+  .container {
+    width: 650px;
+  }
+
+  .skills {
+    width: 185px;
+    margin-top: 6em;
+    margin-left: 1em;
+    padding: 0.5em;
+  }
+
+  .skills img {
+    margin-top: 2em;
+    width: 150px;
+    height: 150px;
+  }
+
+  .resume-header {
+    width: 585px;
+    justify-content: flex-end;
+    height: 20vw;
+  }
+
+  .margin-right {
+    margin-right: 3em;
+  }
+
+  .resume-header h1 {
+    font-size: 2.5em;
+  }
+
+  .resume-header h3 {
+    font-size: 1.5em;
+  }
+
+  .resume h2 {
+    font-size: 1em;
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+  }
+
+  .resume-body {
+    margin-top: 3em;
+    margin-left: 14.5em;
+    width: 400px;
+  }
+
+  .d-flex > a,
+  .d-flex > p,
+  .myskills p,
+  .skills p,
+  .resume-body p {
+    font-size: 0.8em;
+  }
+
+  .resume-body p {
+    font-size: 1em;
+  }
+
+  .mobile a {
+    font-weight: 500;
+  }
+
+  .mobile p {
+    text-align: center;
+  }
+
+  .mobile i {
+    margin: auto;
+    font-size: 2.8vw;
+    width: 2.8vw;
+    height: 2.8vw;
+  }
+
+  .row p {
+    margin: auto;
+    width: 55%;
+  }
+
+  .how-much-skilled {
+    width: 55%;
+    height: 1em;
+    margin: auto;
+  }
+
+  .interets i {
+    font-size: 1.3em;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .langage {
+    font-size: 1.3em;
+  }
+
+  .d-flex {
+    display: inherit;
+  }
+
+  .app-links h4 {
+    padding: 2em;
+  }
+
+  .app-links i {
+    margin-left: 0.3em;
   }
 }
 
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
+@media (max-width: 660px) {
+  /* ------- XS SCREENS ---- For a screen < 540px ------ */
   .container {
-    width: 500px;
+    width: 480px;
+  }
+
+  .skills {
+    margin-top: 5.5em;
+    margin-left: 0.5em;
+    width: 150px;
+  }
+
+  .skills img {
+    margin: inherit;
+    margin-top: 1em;
+    width: 120px;
+    height: 120px;
+  }
+
+  .resume-header {
+    padding: 2em;
+    width: 415px;
+    height: 15vh;
+  }
+
+  .margin-right {
+    margin-right: 1em;
+  }
+
+  .resume-header h1 {
+    font-size: 2.1em;
+  }
+
+  .resume-header h3 {
+    font-size: 1.1em;
+  }
+
+  .resume h2 {
+    font-size: 1em;
+    padding: 0.9em;
+    line-height: 1.5em;
+  }
+
+  .resume-body {
+    margin-top: 3em;
+    margin-left: 185px;
+    width: 280px;
+  }
+
+  .d-flex > a,
+  .d-flex > p,
+  .myskills p,
+  .skills p,
+  .resume-body p {
+    font-size: 0.7em;
+  }
+
+  .resume-body p {
+    font-size: 1em;
+  }
+
+  .mobile a {
+    font-size: 0.6em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile p {
+    text-align: center;
+  }
+
+  .mobile i {
+    margin: auto;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  .d-flex {
+    display: inherit;
+  }
+
+  .interets i {
+    font-size: 1.5em;
+    padding: 0.8em;
+    margin-bottom: 0.5em;
+  }
+
+  .langage p {
+    font-size: 0.6em;
+    font-weight: 500;
+  }
+
+  .interets {
+    flex-wrap: wrap;
   }
 }
 
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+@media (max-width: 500px) {
+  /* ------- XXS SCREENS ---- For a screen < 500px ------ */
+
+  .container {
+    width: 430px;
+  }
+  .resume-header {
+    width: 365px;
+    height: 110px;
+  }
+  .margin-right {
+    margin-right: 0em;
+  }
+  .resume-body {
+    margin-top: 0em;
+    margin-left: 170px;
+    width: 240px;
+  }
+  .resume-body p {
+    font-size: 0.9em;
+  }
+  .skills {
+    width: 130px;
+  }
+  .skills h2 {
+    margin-left: auto;
+  }
+  .hr {
+    margin-left: 0;
+  }
+  .app-links a {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+  .app-links {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .app-links h4 {
+    padding: 1em;
+  }
+  .app-links h4 {
+    width: inherit;
+  }
+  h2.text-center {
+    line-height: 22px;
+  }
+  .application p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 450px) {
+  /* ------- XXS SCREENS ---- For a screen < 450px ------ */
+  .container {
+    width: 380px;
+  }
+  .skills {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .resume-header {
+    width: 315px;
+    height: 110px;
+  }
+  .resume-body {
+    margin-left: 154px;
+    width: 215px;
+    margin-top: 1em;
+  }
+  .resume-body p {
+    font-size: 0.85em;
+  }
+  .resume h2 {
+    font-size: 0.9em;
+  }
+  .langage p {
+    font-size: 0.5em;
+    font-weight: 600;
+  }
+  .mobile p {
+    font-size: 0.6em;
+  }
+  .mobile a {
+    font-size: 0.55em;
+  }
+  .resume h2 {
+    margin-top: 2em;
+  }
+  .resume-header h1 {
+    font-size: 1.8em;
+  }
+  .resume-header h3 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 400px) {
+  /* ------- XXS SCREENS ---- For a screen < 450px ------ */
   .container {
     width: 300px;
+  }
+  .resume-header {
+    width: 235px;
+    height: 130px;
+  }
+  .resume-body {
+    margin: auto;
+    margin-top: 1300px;
+    width: 260px;
+  }
+  .skills {
+    width: 80%;
+    margin: auto;
+    margin-top: 155px;
+    margin-bottom: 1950px;
+    padding-bottom: 30px;
+  }
+  .contact {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1em;
+  }
+  .mobile > i {
+    margin-top: 0em !important;
+    margin-right: 10px;
+  }
+  .d-flex {
+    display: flex;
+    margin-top: 10px;
+  }
+  .mobile p,
+  .mobile a {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .skills h2 {
+    margin-top: 1.5em;
+  }
+  .langage p {
+    font-size: 0.7em;
+    font-weight: 400;
+  }
+  .mobile i {
+    width: 1em;
+    height: 1em;
+  }
+  .interets i {
+    width: 0.7em;
+    height: 0.7em;
+  }
+  .how-much-skilled,
+  .row p {
+    width: 90%;
   }
 }
