@@ -127,7 +127,7 @@ li {
 .list-inline {
   padding-left: 0px;
 }
-
+/* ///////////////////RESUME/////////////////////// */
 .resume {
   position: absolute;
   overflow: hidden;
@@ -210,7 +210,7 @@ span.grey {
   justify-content: flex-start;
   padding-left: 0.5em;
 }
-
+/* ///////////////////SKILLS/////////////////////// */
 .skills {
   background-color: #e1dad1;
   width: 320px;
