@@ -779,9 +779,13 @@ hr {
 }
 
 @media (max-width: 400px) {
-  /* ------- XXS SCREENS ---- For a screen < 450px ------ */
+  /* ------- XXS SCREENS ---- For a screen < 400px ------ */
   .container {
     width: 300px;
+  }
+
+  .about p {
+    text-align: left;
   }
   .resume-header {
     width: 235px;
@@ -792,6 +796,11 @@ hr {
     margin-top: 1300px;
     width: 260px;
   }
+
+  .resume-body p {
+    text-align: left;
+  }
+
   .skills {
     width: 80%;
     margin: auto;
