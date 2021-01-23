@@ -740,6 +740,7 @@ hr {
   .skills {
     margin-left: 0;
     margin-bottom: 0;
+    height: 2000px;
   }
   .resume-header {
     width: 315px;
@@ -749,7 +750,6 @@ hr {
     margin-left: 154px;
     width: 215px;
     margin-top: 1em;
-    height: 1880px;
   }
   .resume-body p {
     font-size: 0.85em;
