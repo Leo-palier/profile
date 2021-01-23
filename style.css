@@ -483,7 +483,9 @@ hr {
     margin-left: 1em;
     padding: 0.5em;
   }
-
+  .hr {
+    width: 19vw;
+  }
   .skills img {
     margin-top: 2em;
     width: 150px;
@@ -709,6 +711,7 @@ hr {
   }
   .hr {
     margin-left: 0;
+    width: 26vw;
   }
   .app-links a {
     margin-right: 0;
@@ -741,6 +744,9 @@ hr {
     margin-left: 0;
     margin-bottom: 0;
     height: 2000px;
+  }
+  .hr {
+    width: 29vw;
   }
   .resume-header {
     width: 315px;
