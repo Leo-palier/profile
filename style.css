@@ -57,7 +57,9 @@ p {
   padding: 0.7em;
   border-radius: 4px;
 }
-
+.equi {
+  font-size: 0.9em;
+}
 a {
   text-decoration: none;
 }
