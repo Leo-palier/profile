@@ -58,7 +58,7 @@ p {
   border-radius: 4px;
 }
 .equi {
-  font-size: 0.9em;
+  font-size: 0.9em !important;
 }
 a {
   text-decoration: none;
