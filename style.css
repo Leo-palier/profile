@@ -219,17 +219,14 @@ span.grey {
   margin-bottom: 3em;
 }
 
-.skills img {
-  margin: inherit;
-  margin-top: 3em;
-  width: 230px;
-  height: 230px;
-}
-
 .skills h2 {
   margin-bottom: 0.5em;
   margin-top: 2.5em;
   margin-left: 0.7em;
+}
+
+.profile {
+  margin-top: 1em !important;
 }
 
 .d-flex > a,
