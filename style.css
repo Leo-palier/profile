@@ -229,6 +229,18 @@ span.grey {
 .profile {
   margin-top: 1em !important;
 }
+.row p,
+.profile p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.profile p {
+  margin-top: 0;
+  padding-top: 0.2em;
+  font-weight: 400;
+  font-size: 1vw;
+}
 
 .d-flex > a,
 .d-flex > p,
@@ -301,19 +313,6 @@ span.grey {
 .score {
   background-color: #79a3b1;
   height: 1em;
-}
-
-.row p,
-.langage p {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.langage p {
-  margin-top: 0;
-  padding-top: 0.2em;
-  font-weight: 400;
-  font-size: 1vw;
 }
 
 /* ///////////////////APPLICATIONS/////////////////////// */
@@ -455,7 +454,7 @@ hr {
     margin-top: 1.5em;
   }
 
-  .langage p {
+  .profile p {
     font-size: 1em;
   }
 
@@ -563,7 +562,7 @@ hr {
     margin-bottom: 0.5em;
   }
 
-  .langage {
+  .profile {
     font-size: 1.3em;
   }
 
@@ -669,7 +668,7 @@ hr {
     margin-bottom: 0.5em;
   }
 
-  .langage p {
+  .profile p {
     font-size: 0.6em;
     font-weight: 500;
   }
@@ -759,7 +758,7 @@ hr {
   .resume h2 {
     font-size: 0.9em;
   }
-  .langage p {
+  .profile p {
     font-size: 0.5em;
     font-weight: 600;
   }
@@ -832,7 +831,7 @@ hr {
   .skills h2 {
     margin-top: 1.5em;
   }
-  .langage p {
+  .profile p {
     font-size: 0.7em;
     font-weight: 400;
   }
