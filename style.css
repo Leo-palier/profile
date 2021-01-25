@@ -152,7 +152,7 @@ li {
   width: 935px;
   display: flex;
   justify-content: flex-end;
-  height: 20vh;
+  height: 18vh;
 }
 
 .margin-right {
@@ -175,7 +175,7 @@ li {
 
 .resume-header h3 {
   font-weight: lighter;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .resume-header hr {
@@ -319,7 +319,7 @@ span.grey {
   margin-top: 0;
   padding-top: 0.2em;
   font-weight: 400;
-  font-size: 1.3vw;
+  font-size: 1vw;
 }
 
 /* ///////////////////APPLICATIONS/////////////////////// */
