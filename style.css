@@ -138,12 +138,13 @@ li {
   font-size: 1.5em;
   padding: 0.7em;
   margin-bottom: 1.3em;
-  margin-top: 1.8em;
+  margin-top: 1.3em;
 }
 
 .resume-header {
   background-color: #79a3b1;
   padding: 2em;
+  padding-top: 1em;
   border-radius: 2px;
   width: 935px;
   display: flex;
@@ -221,7 +222,7 @@ span.grey {
 
 .skills h2 {
   margin-bottom: 0.5em;
-  margin-top: 1.8em;
+  margin-top: 1.5em;
   margin-left: 0.7em;
 }
 
