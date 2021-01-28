@@ -217,12 +217,12 @@ span.grey {
   margin-top: 2em;
   margin-left: 2em;
   padding-bottom: 3em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .skills h2 {
-  margin-bottom: 0.5em;
-  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  margin-top: 1.8em;
   margin-left: 0.7em;
 }
 
@@ -261,7 +261,7 @@ span.grey {
 
 .myskills p {
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .d-flex > a {
