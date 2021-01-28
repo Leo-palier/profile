@@ -303,18 +303,6 @@ span.grey {
   flex-wrap: wrap;
 }
 
-.how-much-skilled {
-  background-color: white;
-  width: 6.5em;
-  height: 1em;
-  margin-left: 0.7em;
-}
-
-.score {
-  background-color: #79a3b1;
-  height: 1em;
-}
-
 /* ///////////////////APPLICATIONS/////////////////////// */
 
 h1.apps-header {
